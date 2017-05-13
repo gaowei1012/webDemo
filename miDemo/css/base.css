@@ -1,0 +1,29 @@
+/* css初始化 */
+/* 清除默认效果 */
+*{magin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{color: red;}
+img{border: none;}
+input{border: none;}
+
+/* 公共样式类 */
+
+.none {
+    display: none;
+}
+.ft {
+    font: 400 14px/16px "Microsoft YaHei";
+}
+.fl {
+    float: left;
+}
+.fr {
+    folat: right;
+}
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 清除浮动 */
