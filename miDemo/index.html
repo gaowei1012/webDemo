@@ -5,6 +5,8 @@
     <title>小米商城 - 小米6、红米Note 4X、小米5c、小米笔记本官方网站</title>
     <!--<link rel="stylesheet" href="css/base.css"/>-->
     <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
     <!-- nav start -->
@@ -76,9 +78,10 @@
             </ul>
         </div>
         <div class="nav-ipt">
-            <input type="text"/>
-            <input type="button"/>
-            <i>小米6</i><i>小米MIX现货</i>
+            <form>
+                <input class="nav-text" type="text" value="小米6">
+                <input class="nav-button" type="text" value="搜索">
+            </form>
         </div>
     </div>
     <!--  nav end -->
@@ -86,23 +89,35 @@
     <!-- nav strat -->
     <div class="mi-nav clearfix w">
         <div class="slide">
-            <ul>
-                <li>
+            <!-- 图片 -->
+            <ul class="slide-container">
+                <li class="slide-pic">
                     <img src="images/xmad_1494404060003_mTcQr.jpg" alt=""/>
                 </li>
-                <li>
+                <li class="slide-pic">
                     <img src="images/xmad_14944179636667_oBwQG.jpg" alt=""/>
                 </li>
-                <li>
+                <li class="slide-pic">
                     <img src="images/xmad_14944178682849_unBoH.jpg" alt=""/>
                 </li>
-                <li>
+                <li class="slide-pic">
                     <img src="images/xmad_14944037510811_TWESb.jpg" alt=""/>
                 </li>
-                <li>
+                <li class="slide-pic">
                     <img src="images/xmad_14943338714811_EITlY.jpg" alt=""/>
                 </li>
             </ul>
+            <!--底部小圆点 -->
+            <div class="slider-buttons">
+                <span index="0"></span>
+                <span index="1"></span>
+                <span index="2"></span>
+                <span index="3"></span>
+                <span index="4"></span>
+            </div>
+            <!--左右箭头-->
+            <a href="javascript:;" class="slider-prev slider-arrow"> &lt; </a>
+            <a href="javascript:;" class="slider-next slider-arrow"> &gt; </a>
         </div>
         <div class="mi-nav-left fl clearfix">
             <ul>
@@ -161,15 +176,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="ui-pager">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
         </div>
         <div class="nav-classification w fl">
             <div>
@@ -377,6 +383,7 @@
         </div>
     </div>
     <!-- ware-gather end -->
+
     <!--搭配 start -->
     <div class="ware-collocation bc clearfix">
         <div class="w">

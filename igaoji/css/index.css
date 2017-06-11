@@ -1,0 +1,336 @@
+@charset "UTF-8";
+    html{
+        height: 10000px;
+        background: #F2F2F2;
+    }
+/* 顶部通栏 start*/
+    .ig-herder {
+        width: 100%;
+        height: 70px;
+        background-color: #4BAFBE;
+    }
+    .ig-logo {
+        float: left;
+        width: 150px;
+        height: 70px;
+    }
+    .ig-logo a {
+        display: inline-block;
+        width: 150px;
+        height: 70px;
+        background: url("../images/logo.png") no-repeat left;
+    }
+    .ig-herder .ig-nav {
+        float: left;
+        margin-left: 103px;
+    }
+    .ig-herder .ig-nav ul {
+        float: left;
+    }
+    .ig-herder .ig-nav ul li {
+        display: block;
+        margin-right: 40px;
+        float: left;
+        height: 70px;
+        line-height: 70px;
+    }
+    .ig-herder .ig-nav ul li a{
+        font-size: 16px;
+        color: #fff;
+    }
+    .ig-herder .ig-login {
+        width: 280px;
+        height: 70px;
+        display: table;
+        position: relative;
+    }
+    .ig-login .login-form {
+        width: 280px;
+        position: absolute;
+        top: 22%;
+        left: 44%;
+        text-align: center;
+    }
+    .login-form .login-text {
+        width: 220px;
+        height: 40px;
+        border: medium;
+        border-radius: 20px;
+    }
+    .login-form .login-sub {
+        width: 40px;
+        height: 40px;
+        border: medium;
+        background: url("http://www.igao7.com/resWeb/home/images/member/noLogin.jpg") no-repeat center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    /*.ig-login .login-sub {*/
+        /*width: 38px;*/
+        /*height: 38px;*/
+        /*border: none;*/
+        /*border-radius: 50%;*/
+    /*}*/
+
+/* 顶部通栏 end */
+
+/* 顶部轮播 start*/
+    .slide-warp {
+        height: 395px;
+        margin-top: 30px;
+    }
+    .slide-warp .slide {
+        float: left;
+        height:395px;
+        width: 550px;
+        overflow: hidden;
+        background: #00C0A5;
+    }
+    .slide ul {
+        width: 2750px;
+        float: left;
+    }
+    .slide ul li {
+        width: 550px;
+        height: 395px;
+        float: left;
+    }
+    .slide ul li img {
+        width: 550px;
+        height: 395px;
+    }
+    .slide-warp .warp-item {
+        float: right;
+        width: 546px;
+        height: 395px;
+        margin-left: 2px;
+    }
+    .warp-item .item1{
+        float: left;
+        width: 273px;
+        height: 196px;
+        margin-bottom: 2px;
+        background: #505463;
+    }
+    .warp-item .item2{
+        float: left;
+        width: 273px;
+        height: 196px;
+        margin-bottom: 2px;
+    }
+    .item2 a img {
+        width: 273px;
+        height: 196px;
+    }
+    .warp-item .item3{
+        position: relative;
+        float: left;
+        width: 273px;
+        height: 196px;
+    }
+    .item3 a img{
+        width: 273px;
+        height: 196px;
+    }
+    .item3 p {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        color: #fff;
+    }
+    .warp-item .item4{
+        position: relative;
+        float: left;
+        width: 273px;
+        height: 196px;
+    }
+    .item4 a img {
+        width: 273px;
+        height: 196px;
+    }
+    .item4 p {
+        position: absolute;
+        right: 28px;
+        bottom: 5px;
+        color: #fff;
+    }
+/* 顶部轮播 end */
+
+/* 搞机资讯 start */
+    .information {
+        margin-top: 32px;
+        border: 1px solid #ccc;
+    }
+    .information .information-left {
+
+    }
+    .information-left-item {
+        width: 765px;
+        text-align: center;
+    }
+    .information-left-item .title h3 {
+        font-size: 24px;
+        float: left;
+    }
+    .information-left-item span {
+        float: right;
+    }
+    .information-left-item .information-items {
+        width: 756px;
+        height: 380px;
+        background: #fff;
+    }
+
+    .information-items ul {
+        float: left;
+    }
+    .information-items ul li {
+        float: left;
+        width: 346px;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .information-items ul li {
+        text-align: left;
+    }
+    .information-items .img {
+        float: left;
+    }
+    .information-items .img a img {
+        width: 152px;
+        height: 100px;
+    }
+    .information-items .txt{
+        width: 190px;
+        float: left;
+        text-align: center;
+    }
+    .information-items .txt p{}
+    .information-items .txt em {
+        font-size: 12px;
+        color: #888;
+    }
+
+    .information-left-item2 {
+        width: 756px;
+        height: 100%;
+    }
+    .information-left-item2 .item-nav {
+        height: 73px;
+        line-height: 73px;
+    }
+    .item-nav ul {
+        float: left;
+        margin-top: 19px;
+    }
+    .item-nav ul li {
+        display: block;
+        float: left;
+        height: 34px;
+        margin-right: 10px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .active {
+        border: 2px solid #99CED6;
+        border-radius: 20px;
+    }
+    .none {
+        display: none;
+    }
+    .item-nav ul li a {
+        display: block;
+        height: 34px;
+        line-height: 34px;
+        width: 93px;
+        color: #888888;
+    }
+    .item-content {
+        position: absolute;
+    }
+    .item-content-top{
+        width: 756px;
+        background: #fff;
+    }
+    .item-content-top img{
+        width: 756px;
+        height: 315px;
+    }
+    .item-content-top em {
+        display: inline-block;
+        width: 60px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        position: relative;
+        font-style: normal;
+        top: -296px;
+        left: -760px;
+        color: #fff;
+        background: rgba(221,99,67, 1);
+    }
+    .item-content-top .content-text{
+        width: 740px;
+        height: 89px;
+        background: #fff;
+        padding-left: 16px;
+        border-bottom: 1px solid #ccc;
+    }
+    .content-text h3{
+        height: 32px;
+        line-height: 32px;
+    }
+    .content-text p{
+        color: #888;
+        height: 32px;
+        line-height: 32px;
+    }
+    .item-content-bottom{
+        width: 756px;
+        height: 46px;
+        line-height: 46px;
+        background: #fff;
+    }
+    .bottom-classify {
+        float: left;
+        text-align: center;
+    }
+    .bottom-classify li{
+        float: left;
+    }
+    .bottom-classify li a{
+        corlor: #888;
+    }
+    .bottom-classify .writer {
+        width: 130px;
+        height: 46px;
+        position: relative;
+    }
+    .writer img{
+        display: table;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    .writer .writer-img {
+        position: absolute;
+        top: 25%;
+        left:10%;
+        display: table;
+        width: 25px;
+        height: 25px;
+    }
+    .bottom-classify .label {
+        width: 360px;
+    }
+    .bottom-classify .time {
+        width: 170px;
+    }
+    .bottom-classify .comment {
+        width: 79px;
+    }
+/* 搞机资讯 end */

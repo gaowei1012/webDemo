@@ -1,0 +1,88 @@
+.slide{
+	overflow: hidden;
+	position: relative;
+}
+.slide-container{
+	position: absolute;
+}
+.slide-container{
+	padding: 0;
+	margin: 0;
+}
+.slide-container li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+}
+.slide-pic{
+	position: relative;
+}
+.slider-dir{
+	z-index: 2;
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	color: #FFFFFF;
+}
+/*底部小圆点样式*/
+.slider-buttons { 
+	position: absolute; 
+	height: 10px; 
+	width: 100px; 
+	z-index: 2; 
+	bottom: 20px; 
+	right: 80px;
+}
+.slider-buttons span { 
+	cursor: pointer; 
+	float: left; 
+	border: 1px solid #fff; 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 50%; 
+	background: #333; 
+	margin-right: 5px;}
+/*小圆点选中状态样式*/
+.slider-buttons .on {
+	background: orangered;
+}
+
+
+/*左右切换箭头样式*/
+.slider-arrow { 
+	text-decoration: none;
+	cursor: pointer; 
+	display: none; 
+	line-height: 39px; 
+	text-align: center; 
+	font-size: 36px; 
+	font-weight: bold; 
+	width: 40px; 
+	height: 40px;  
+	position: absolute; 
+	z-index: 2; 
+	top: 47%; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;}
+.slider-arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+	}
+.slide:hover .slider-arrow { 
+	display: block;
+	}
+.slider-prev { 
+	left: 20px;
+	}
+.slider-next { 
+	right: 20px;
+	} 
+/*底部阴影设置*/
+.slide-bg{
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	width: 100%;
+	height: 70px;
+	background-image: linear-gradient(to top,rgba(10,10,10,0.8),rgba(255,255,255,0));
+}

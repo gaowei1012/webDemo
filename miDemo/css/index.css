@@ -93,7 +93,7 @@
         float: right;
     }
     .nav-right ul li {
-        float: right;
+        float: left;
         height: 40px;
         line-height: 40px;
     }
@@ -148,39 +148,50 @@
         font-size: 14px;
         color: #000;
     }
+    /* 右边搜索框 */
     .nav-ipt {
         position: absolute;
+        height: 52px;
+        width: 380px;
         top: 0;
         right: 0;
         text-align: center;
     }
-    .nav-ipt input {
+    .nav-ipt .nav-text {
+        width: 200px;
         height: 48px;
         border: 1px solid #333333;
         margin-bottom: 2px;
+        outline: medium;
     }
-    .nav-ipt input:nth-child(0){
+    .nav-ipt .nav-button {
         height: 48px;
-        border: 1px solid #333333;
-        margin-bottom: 2px;
+        width: 60px;
+        text-align: center;
+        outline: medium;
     }
-    .nav-ipt input:nth-last-child{
-        height: 48px;
-        border: 1px solid #333333;
-        margin-bottom: 2px;
-    }
-    .nav-ipt input i:nth-child(0) {
-        position: absolute;
-        background-color: #B0B0B0;
-        top: 0;
-        left: 0;
-    }
-    .nav-ipt input i:nth-last-child {
-        position: absolute;
-        background-color: #B0B0B0;
-        top: 0;
-        right: 0;
-    }
+    /*.nav-ipt input:nth-child(0){*/
+        /*height: 48px;*/
+        /*border: 1px solid #333333;*/
+        /*margin-bottom: 2px;*/
+    /*}*/
+    /*.nav-ipt input:nth-last-child{*/
+        /*height: 48px;*/
+        /*border: 1px solid #333333;*/
+        /*margin-bottom: 2px;*/
+    /*}*/
+    /*.nav-ipt input i:nth-child(0) {*/
+        /*position: absolute;*/
+        /*background-color: #B0B0B0;*/
+        /*top: 0;*/
+        /*left: 0;*/
+    /*}*/
+    /*.nav-ipt input i:nth-last-child {*/
+        /*position: absolute;*/
+        /*background-color: #B0B0B0;*/
+        /*top: 0;*/
+        /*right: 0;*/
+    /*}*/
 
     /* nav end*/
 
@@ -308,7 +319,58 @@
     .ui-pager ul li:hover{
         background: rgba(255, 255, 255, 0.30);
     }
-    /* 底部商品分类区 */
+    /*底部小圆点样式*/
+    .slider-buttons {
+        position: absolute;
+        height: 10px;
+        width: 100px;
+        z-index: 2;
+        bottom: -190px;
+        right: 60px;
+    }
+    .slider-buttons span {
+        cursor: pointer;
+        float: left;
+        border: 1px solid #fff;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #333;
+        margin-right: 5px;
+    }
+    /*小圆点选中状态样式*/
+    .slider-buttons .on {
+        background: orangered;
+    }
+    /*左右切换箭头样式*/
+    .slider-arrow {
+        text-decoration: none;
+        cursor: pointer;
+        display: none;
+        line-height: 39px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        z-index: 2;
+        top: 47%;
+        background-color: RGBA(0,0,0,.3);
+        color: #fff;}
+    .slider-arrow:hover {
+        background-color: RGBA(0,0,0,.7);
+    }
+    .slide:hover .slider-arrow {
+        display: block;
+    }
+    .slider-prev {
+        left: 20px;
+    }
+    .slider-next {
+        right: 20px;
+    }
+/* 底部商品分类区 */
     .nav-classification {
         width: 100%;
         margin-bottom: 10px;
