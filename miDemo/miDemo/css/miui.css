@@ -1,0 +1,221 @@
+/* header start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /*height: 1000%;*/
+    /*overflow: hidden;*/
+}
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.top {
+    height: 42px;
+    background: #000;
+}
+.header .logo {
+    display: block;
+    float: left;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+}
+.header ul {
+    float: right;
+}
+.header ul li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-right: 36px;
+}
+.header ul li .sy {
+    color: #ccc;
+    font-size: 14px;
+}
+.header ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+.header ul li a:hover {
+    color: #ccc;
+}
+/* header end*/
+
+/* lunbo start*/
+/*.lunbo_content {*/
+    /*width: 2702px;*/
+    /*height: 659px;*/
+    /*overflow: hidden;*/
+
+/*}*/
+/*.lunbo_content ul {*/
+    /*width:2702px;*/
+    /*height: 657px;*/
+/*}*/
+/*.lunbo_content ul li {*/
+    /*float: left;*/
+/*}*/
+/*.lunbo_content .lunbo01 {*/
+    /*width: 1351px;*/
+    /*height: 657px;*/
+    /*background: #ccc;*/
+/*}*/
+/*.lunbo_content .lunbo02　{*/
+    /*width: 1351px;*/
+    /*height: 657px;*/
+    /*background: #000;*/
+/*}*/
+/* lunbo end*/
+
+/* miui start */
+.nav {
+    height: 122px;
+    padding-top: 58px;
+    border-bottom: 1px solid #ccc;
+}
+.banner {
+    height: 58px;
+}
+.banner li {
+    float: left;
+}
+.banner .banner1 {
+    width:413px;
+    height: 58px;
+}
+.banner1-a {
+    display: inline-block;
+    width: 312px;
+    height: 58px;
+    color: #000;
+    margin-left: 101px;
+    border-right: 1px solid #ccc;
+}
+.banner1-a:hover {
+    color: #f78200;
+}
+.banner1-text {
+    margin-left: 28px;
+    float: left;
+    width: 140px;
+    height: 56px;
+}
+.banner1 img {
+    float: left;
+}
+.banner1 h3 {
+    font-size: 16px;
+}
+.banner1 span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* banner 2*/
+
+.banner .banner2 {
+    width:413px;
+    height: 58px;
+}
+.banner2-a {
+    display: inline-block;
+    width: 312px;
+    height: 58px;
+    color: #000;
+    margin-left: 101px;
+    border-right: 1px solid #ccc;
+}
+.banner2-a:hover {
+    color: #f78200;
+}
+.banner2-text {
+    margin-left: 28px;
+    float: left;
+    width: 160px;
+    height: 56px;
+}
+.banner2 img {
+    float: left;
+}
+.banner2 h3 {
+    font-size: 16px;
+}
+.banner2 span {
+    font-size: 14px;
+    color: #ccc;
+}
+/* banner 3*/
+.banner .banner3 {
+    width:413px;
+    height: 58px;
+}
+.banner3-a {
+    display: inline-block;
+    width: 312px;
+    height: 58px;
+    color: #000;
+    margin-left: 101px;
+}
+.banner3-a:hover {
+    color: #f78200;
+}
+.banner3-text {
+    margin-left: 28px;
+    float: left;
+    width: 170px;
+    height: 56px;
+}
+.banner3 img {
+    float: left;
+}
+.banner3 h3 {
+    font-size: 16px;
+}
+.banner3 span {
+    font-size: 14px;
+    color: #ccc;
+}
+/* miui end */
+
+/* bottom start*/
+.footer {
+    width: 1240px;
+    margin: 0 auto;
+    height: 100px;
+    padding-top: 60px;
+}
+.footer-content {
+
+}
+.footer-content ul {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer-content ul li {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+}
+.footer-content ul li a {
+    color: #858585;
+    font-size: 14px;
+}
+.footer-content ul li a:hover {
+    color: #f78200;
+}
+.footer .copyright {
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+}
+/* bottom end*/

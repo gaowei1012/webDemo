@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+img {
+    border: 0;
+}
+.w {
+    width: 1216px;
+    margin: 0 auto;
+}
+a:hover {
+    color: #f78200;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/* header start */
+.header {
+    width: 100%;
+    min-width: 1200px;
+    height:80px;
+    background: url("../images/miliao-bg.png") repeat;
+}
+.header-nav {
+    height: 80px;
+}
+.header-logo {
+    float: left;
+}
+.header-menu {
+    float: left;
+    height: 80px;
+    line-height:80px;
+}
+.header-menu ul {
+}
+.header-menu ul li {
+    float: left;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.header-menu ul li:hover {
+    color: #2793f8;
+}
+.header-menu ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+/* lunbo start */
+.lunbo-warp {
+    width: 4053px;
+    height: 600px;
+}
+.lunbo-warp ul {
+    width: 4053px;
+}
+.lunbo-warp ul li {
+    width: 1351px;
+    float: right;
+}
+.lunbo-warp ul li a {}
+.lunbo-warp ul li a img {}
+/* lunbo end */
+
+/* download start*/
+.download {}
+.download .item {
+    width: 400px;
+    height: 346px;
+    float: left;
+    margin-right: 3px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.download .item h3 {
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+}
+.download .item h3 span {
+    font-size: 16px;
+    color: #ccc;
+}
+.item .download-android {
+    width: 200px;
+    height: 50px;
+    background: blue;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+.item .download-android span {
+    display: block;
+    width: 25px;
+    height: 30px;
+    float: left;
+    margin: 9px 0px 0px 23px;
+    background: url("../images/miliao-dld-iocn.png")no-repeat -9px -10px;
+}
+.item .download-android p {
+    width: 100px;
+    height: 50px;
+    float: left;
+    line-height:50px;
+    font-size: 20px;
+    margin-left: 15px;
+    color: #fff;
+}
+/* download end*/
+/* footer start */
+.footer {}
+.footer .footer-nav {
+    text-align: center;
+}
+.footer-nav ul {
+    text-align: center;
+}
+.footer-nav ul li {
+    float: left;
+}
+/* footer end */
